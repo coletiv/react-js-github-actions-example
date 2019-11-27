@@ -10,7 +10,7 @@ const App: React.FC = () => {
         <p>
           <a
             className="App-link"
-            href="www.coletiv.com"
+            href="https://coletiv.com"
             target="_blank"
             rel="noopener noreferrer"
           >
