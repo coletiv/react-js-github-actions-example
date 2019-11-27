@@ -1,6 +1,6 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
 
 const App: React.FC = () => {
   return (
@@ -8,19 +8,27 @@ const App: React.FC = () => {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+          <a
+            className="App-link"
+            href="www.coletiv.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Coletiv
+          </a>{" "}
+          companion website for the Github Actions example
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://github.com/coletiv/react-js-github-actions-example"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Github Repository
         </a>
       </header>
     </div>
   );
-}
+};
 
 export default App;
